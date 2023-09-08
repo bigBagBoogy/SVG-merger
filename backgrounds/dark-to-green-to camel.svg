@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="500" cy="500" r="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffd956"/>
+      <stop offset="0.137" stop-color="#ffd956"/>
+      <stop offset="0.59" stop-color="#3d9e69"/>
+      <stop offset="1.05"/>
+    </radialGradient>
+  </defs>
+  <circle id="Ellipse_1_copy_5" data-name="Ellipse 1 copy 5" class="cls-1" cx="500" cy="500" r="450"/>
+</svg>
