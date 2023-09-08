@@ -2,13 +2,18 @@ const fs = require("fs");
 
 function combineSVGs() {
   // Read SVG content from files
-  const svg1 = fs.readFileSync("bearblack.svg", "utf8");
-  const svg2 = fs.readFileSync("bearwhite.svg", "utf8");
+  // const svg1 = fs.readFileSync("01subjects/bearblack.svg", "utf8");
+  // const svg2 = fs.readFileSync("01subjects/bearwhite.svg", "utf8");
+  const svg1 = fs.readFileSync(
+    "01backgrounds/dark-to-green-to camel.svg",
+    "utf8"
+  );
+  const svg2 = fs.readFileSync("01subjects/bearwhite.svg", "utf8");
 
-  // console.log("SVG 1:");
-  // console.log(svg1);
-  // console.log("SVG 2:");
-  // console.log(svg2);
+  console.log("SVG 1:");
+  console.log(svg1);
+  console.log("SVG 2:");
+  console.log(svg2);
 
   // Extract style and path elements as text
   const style1Text = svg1.match(/<style[^>]*>[\s\S]*?<\/style>/i);

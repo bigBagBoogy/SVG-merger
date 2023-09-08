@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 
 // Define the folder where your SVG files are located
-const folderPath = "backgrounds";
+const folderPath = "01backgrounds";
 
 // Read the contents of the folder
 fs.readdir(folderPath, (err, files) => {
